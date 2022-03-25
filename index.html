@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Сантехник Нижний Новогород</title>
+  </head>
+  <body>
+		<style>
+			body {
+				width: 100vw;
+				height: 100vh;
+				overflow: hidden;
+			}
+
+			.container {
+				max-width: 100%;
+				margin: 0 auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+
+			.custom {
+				position: relative;
+			}
+
+			.cover {
+				display: flex;
+				overflow: scroll;
+				justify-content: center;
+				align-items: center;
+				padding: 8%;
+				z-index: 1;
+				width: 100vw;
+				height: 100vh;
+				position: absolute;
+				color: white;
+				background-color: rgba(20, 20, 20, 0.87);
+			}
+
+			img {
+				width: 100px;
+			}
+
+			.description {
+				align-self: flex-start;
+				max-width: 30%;
+			}
+
+			.fotos {
+				width: 40%;
+				border-radius: 8px;
+				overflow: hidden;
+				margin-left: auto;
+				align-self: flex-end;
+				position: relative;
+				background: transparent;
+			}
+			@media (max-width: 1200px) {
+				.description {
+					max-width: 50%;
+				}
+			}
+
+			@media (max-width: 1000px) {
+				.cover {
+					display: block;
+				}
+				.fotos {
+					width: 55%;
+					margin-top: 4vw;
+					margin-right: auto;
+				}
+			}
+
+			@media (max-width: 1000px) {
+				.fotos {
+					width: 90%;
+				}
+			}
+		</style>
+
+		<div class="cover">
+			<div class="description">
+				<h1 class="logo">Сантехник</h1>
+				<h2 >Услуги по ремонту, монтажу и строительству в Нижнем Новгороде</h2>
+				<br>
+				<p>Монтаж отопления, водопровода и канализации. 
+					Обвязка котлов, установка сантех приборов, 
+					монтаж душевых кабин, инсталяций, радиаторов, полотенцесушителей, разводка воды, монтаж котельни под ключ.
+				</p>
+				<br>
+				<address>
+					Нижний Новогород, жилой район Щербинки, второй микрорайон.
+				</address>
+				<div>+7(930) 237 9000 Василий</div>
+			</div>
+			<div class="fotos">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="imgs/1.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imgs/2.jpg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imgs/3.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imgs/4.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imgs/5.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imgs/6.jpg" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<section class="container">
+			
+			<div class="lightbox ">
+				<div class="row">
+					<div class="col-lg-6">
+						<img
+							src="imgs2/1.jpg"
+							data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+							alt="Table Full of Spices"
+							class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+						/>
+						<img
+							src="imgs2/2.jpg"
+							data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
+							alt="Coconut with Strawberries"
+							class="w-100 shadow-1-strong rounded"
+						/>
+					</div>
+					<div class="col-lg-6">
+						<img
+							src="imgs2/3.jpg"
+							data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+							alt="Table Full of Spices"
+							class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+						/>
+						<img
+							src="imgs2/4.jpg"
+							data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
+							alt="Coconut with Strawberries"
+							class="w-100 shadow-1-strong rounded"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
